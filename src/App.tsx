@@ -1,8 +1,13 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
 function App() {
   return (
     <>
-      <h1 className="text-blue-950">Hallo aus Afghanistan</h1>
-      <textarea className="border resize-x">write comments</textarea>
+      <BrowserRouter>
+        <Routes>
+          <Route element={<Home />} path="/" />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
