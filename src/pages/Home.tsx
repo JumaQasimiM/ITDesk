@@ -1,7 +1,22 @@
+import backroundImageHomePage from "../assets/backroundImageHomePage.jpg";
+import Login from "./Login";
 export default function Home() {
   return (
-    <div className="max-w-7xl mx-auto">
-      <h1>Home</h1>
+    <div className="relative w-full h-[100vh] overflow-hidden">
+      {/* image */}
+      <img
+        src={backroundImageHomePage}
+        className="absolute w-full h-full object-cover"
+      />
+
+      {/* overly */}
+      <div className="absolute inset-0 bg-black/70" />
+
+      {/* content */}
+      <div className="absolute inset-0 flex flex-col justify-center items-center text-white">
+        {/* login */}
+        <Login />
+      </div>
     </div>
   );
 }
