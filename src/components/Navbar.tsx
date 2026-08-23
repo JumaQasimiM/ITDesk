@@ -5,6 +5,7 @@ const navItem: NavItem[] = [
   { name: "HOME", path: "/" },
   { name: "ABOUT", path: "/about" },
 ];
+
 const Navbar = () => {
   return (
     <div className="bg-sky-950 text-white font-medium">

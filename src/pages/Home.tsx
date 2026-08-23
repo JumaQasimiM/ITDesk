@@ -10,10 +10,10 @@ export default function Home() {
       />
 
       {/* overly */}
-      <div className="absolute inset-0 bg-black/70" />
+      <div className="absolute inset-0 bg-black/80" />
 
       {/* content */}
-      <div className="absolute inset-0 flex flex-col justify-center items-center text-white">
+      <div className="absolute inset-0 flex justify-center items-center text-white">
         {/* login */}
         <Login />
       </div>
