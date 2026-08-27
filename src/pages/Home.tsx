@@ -14,8 +14,9 @@ export default function Home() {
 
       {/* content */}
       <div className="absolute inset-0 flex justify-center items-center text-white">
-        {/* login */}
+        {/* ===================== Login ====================== */}
         <Login />
+        {/* ================================================== */}
       </div>
     </div>
   );
