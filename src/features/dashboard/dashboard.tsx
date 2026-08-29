@@ -6,6 +6,7 @@ import {
   Users,
   ArrowUpRight,
 } from "lucide-react";
+import DashboardHeader from "./components/DashboardHeader";
 
 const tickets = [
   {
@@ -34,9 +35,11 @@ const tickets = [
   },
 ];
 
-const Dashboard = () => {
+const Dashboards = () => {
   return (
     <main className="min-h-screen bg-gray-100 p-6">
+      {/* header */}
+      <DashboardHeader />
       {/* Header */}
       <div className="mb-8 flex flex-col justify-between gap-4 md:flex-row md:items-center">
         <div>
@@ -252,4 +255,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default Dashboards;
