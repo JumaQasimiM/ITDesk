@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-// =========== Components =============
+// =========== Pages =============
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Dashboard from "./features/dashboard/dashboard";
+import Dashboard from "./pages/Dashboard";
 
 function App() {
   return (
