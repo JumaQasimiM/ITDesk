@@ -1,10 +1,15 @@
 import DashboardHeader from "../features/dashboard/components/DashboardHeader";
+import RecentTickets from "../features/dashboard/components/RecentTikits";
 
 const Dashboard = () => {
   return (
     <div className="min-h-screen bg-gray-200">
+      {/* header */}
       <DashboardHeader />
-      <h1>Dashboard</h1>
+      {/* recent tekits */}
+      <div className="max-w-7xl mx-auto">
+        <RecentTickets />
+      </div>
     </div>
   );
 };
