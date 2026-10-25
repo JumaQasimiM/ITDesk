@@ -2,7 +2,7 @@ import LoginForm from "../features/auth/components/LoginForm";
 
 export const Login = () => {
   return (
-    <main className="w-full h-screen bg-sky-700">
+    <main className="w-full h-screen bg-sky-700 flex justify-center items-center">
       <LoginForm />
     </main>
   );
